@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Binary Search</title>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="binary-search-container">
+		<div class="controls container">
+			<form>
+				<div class="input-group mb-3 form-group" id="search-input-form">
+				  <div class="input-group-prepend">
+				    <button class="btn btn-outline-primary" type="button" id="start-search-btn">Search</button>
+				  </div>
+				  <div class="input-group-prepend">
+				    <button class="btn btn-outline-danger" type="button" id="reset-search-btn">Reset</button>
+				  </div>
+				  <input type="number" class="form-control" id="number-input-container" placeholder="" aria-describedby="start-search-btn">
+				</div>
+			</form>
+		</div>
+		<div id="root" />
+	</div>
+    <script src="sketch.js"></script>
+</body>
+</html>
